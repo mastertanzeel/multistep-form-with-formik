@@ -25,7 +25,7 @@ function getStepContent(stepIndex: number, handleNext: () => void) {
     case 2:
       return <StepThree handleNext={handleNext} />;
     default:
-      return "Currently! We are working on it...";
+      return "Oh Snap! Step not found!";
   }
 }
 
